@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: left;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: #c4c4c4;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 6em;
+    margin: 0;
+    padding: 0;
+}
+
+.version{
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.links{
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left-panel {
+    background: #fff;
+    padding: 40px;
+    width: 50vw;
+}
+
+.description {
+    max-width: 600px;
+}
+
+.right-panel {
+    background-color: rgb(215, 233, 227);
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    padding: 40px;
+}
+
+
+.poster {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    max-width: calc(88vh * 0.707);
+    max-height: calc(88vh * 1);
+}
+
+.controls {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background: #333;
+}
+
+.github-link a {
+    color: #000;
+    text-decoration: none;
+}
+
+.github-link a:hover {
+    text-decoration: underline;
+}
+
+
+a:link {
+    color: black; /* default link color */
+    text-decoration: underline; /* default link underline */
+  }
+  
+  a:hover,
+  a:visited {
+    color: black; /* black color on hover and visited */
+    text-decoration: none; /* no underline on hover and visited */
+  }
+
+/* Additional styling for responsiveness and aesthetics may be required */
