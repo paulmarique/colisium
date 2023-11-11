@@ -60,13 +60,14 @@ h1{
 .poster {
     background-color: #000;
     width: 100%;
-    height: 100%;
-    max-width: calc(88vh * 0.707);
-    max-height: calc(88vh * 1);
+    height: 95%;
+    max-width: calc(80vh * 0.707);
+    max-height: calc(80vh * 1);
 }
 
 .controls {
     position: fixed;
+    height: 5vh;
     bottom: 0;
     margin-bottom: 30px;
 }
